@@ -1,0 +1,21 @@
+.LiveIndicator {
+    position: absolute;
+    top: 0;
+    right: 32px;
+    height: 100%;
+    width: calc(100% - 64px - 248px - 4px);
+    z-index: 100;
+    pointer-events: none;
+
+    &__wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    &__bar {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        border-left: 1px solid var(--palette-primary-600);
+    }
+}

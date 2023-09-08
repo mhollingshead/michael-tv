@@ -1,0 +1,402 @@
+{
+    "ABC": {
+        "callSign": "ABC",
+        "name": "ABC",
+        "tmdbId": 2
+    },
+    "CBS": {
+        "callSign": "CBS",
+        "name": "CBS",
+        "tmdbId": 16
+    },
+    "NBC": {
+        "callSign": "NBC",
+        "name": "NBC",
+        "tmdbId": 6
+    },
+    "FOX": {
+        "callSign": "FOX",
+        "name": "FOX",
+        "tmdbId": 19
+    },
+    "CW": {
+        "callSign": "CW",
+        "name": "The CW",
+        "tmdbId": 71
+    },
+    "PBS": {
+        "callSign": "PBS",
+        "name": "PBS",
+        "tmdbId": 14
+    },
+    "AETV": {
+        "callSign": "AETV",
+        "name": "A&E",
+        "tmdbId": 129
+    },
+    "AMC": {
+        "callSign": "AMC",
+        "name": "AMC",
+        "tmdbId": 174
+    },
+    "ANTENNA": {
+        "callSign": "ANTENNA",
+        "name": "Antenna TV",
+        "tmdbId": 987
+    },
+    "APL": {
+        "callSign": "APL",
+        "name": "Animal Planet",
+        "tmdbId": 91
+    },
+    "BBCA": {
+        "callSign": "BBCA",
+        "name": "BBC America",
+        "tmdbId": 493
+    },
+    "FYISD": {
+        "callSign": "FYISD",
+        "name": "FYI",
+        "tmdbId": 1080
+    },
+    "BET": {
+        "callSign": "BET",
+        "name": "BET",
+        "tmdbId": 24
+    },
+    "BLOOM": {
+        "callSign": "BLOOM",
+        "name": "Bloomberg Television",
+        "tmdbId": 666
+    },
+    "BRAVO": {
+        "callSign": "BRAVO",
+        "name": "Bravo",
+        "tmdbId": 74
+    },
+    "CMTV": {
+        "callSign": "CMTV",
+        "name": "CMT",
+        "tmdbId": 85
+    },
+    "CNBC": {
+        "callSign": "CNBC",
+        "name": "CNBC",
+        "tmdbId": 175
+    },
+    "CNN": {
+        "callSign": "CNN",
+        "name": "CNN",
+        "tmdbId": 59
+    },
+    "COMEDY": {
+        "callSign": "COMEDY",
+        "name": "Comedy Central",
+        "tmdbId": 47
+    },
+    "COOK": {
+        "callSign": "COOK",
+        "name": "Cooking Channel",
+        "tmdbId": 802
+    },
+    "CSPAN": {
+        "callSign": "CSPAN",
+        "name": "C-SPAN",
+        "tmdbId": 322
+    },
+    "DEST": {
+        "callSign": "DEST",
+        "name": "Destination America",
+        "tmdbId": 530
+    },
+    "DSC": {
+        "callSign": "DSC",
+        "name": "Discovery Channel",
+        "tmdbId": 64
+    },
+    "DLC": {
+        "callSign": "DLC",
+        "name": "Discovery Life",
+        "tmdbId": 670
+    },
+    "DFC": {
+        "callSign": "DFC",
+        "name": "Discovery Family",
+        "tmdbId": 1287
+    },
+    "DISN": {
+        "callSign": "DISN",
+        "name": "Disney Channel",
+        "tmdbId": 54
+    },
+    "DXD": {
+        "callSign": "DXD",
+        "name": "Disney XD",
+        "tmdbId": 44
+    },
+    "E": {
+        "callSign": "E",
+        "name": "E!",
+        "tmdbId": 76
+    },
+    "ESPN": {
+        "callSign": "ESPN",
+        "name": "ESPN",
+        "tmdbId": 29
+    },
+    "ESPN2": {
+        "callSign": "ESPN2",
+        "name": "ESPN 2",
+        "tmdbId": 70
+    },
+    "ESPNCL": {
+        "callSign": "ESPNCL",
+        "name": "ESPN Classic",
+        "tmdbId": 297
+    },
+    "ESPNEWS": {
+        "callSign": "ESPNEWS",
+        "name": "ESPNews",
+        "tmdbId": 109
+    },
+    "ESPNU": {
+        "callSign": "ESPNU",
+        "name": "ESPNU",
+        "tmdbId": 81
+    },
+    "FNC": {
+        "callSign": "FNC",
+        "name": "FOX News",
+        "tmdbId": 45
+    },
+    "FOOD": {
+        "callSign": "FOOD",
+        "name": "Food Network",
+        "tmdbId": 143
+    },
+    "FX": {
+        "callSign": "FX",
+        "name": "FX",
+        "tmdbId": 88
+    },
+    "FXX": {
+        "callSign": "FXX",
+        "name": "FXX",
+        "tmdbId": 1035
+    },
+    "GOLF": {
+        "callSign": "GOLF",
+        "name": "Golf Channel",
+        "tmdbId": 420
+    },
+    "GSN": {
+        "callSign": "GSN",
+        "name": "Game Show Network",
+        "tmdbId": 63
+    },
+    "HALL": {
+        "callSign": "HALL",
+        "name": "Hallmark Channel",
+        "tmdbId": 384
+    },
+    "HBO": {
+        "callSign": "HBO",
+        "name": "HBO",
+        "tmdbId": 49
+    },
+    "HBOF": {
+        "callSign": "HBOF",
+        "name": "HBO Family",
+        "tmdbId": 2593
+    },
+    "HGTV": {
+        "callSign": "HGTV",
+        "name": "HGTV",
+        "tmdbId": 210
+    },
+    "HISTORY": {
+        "callSign": "HISTORY",
+        "name": "History",
+        "tmdbId": 65
+    },
+    "HLN": {
+        "callSign": "HLN",
+        "name": "HLN",
+        "tmdbId": 181
+    },
+    "ID": {
+        "callSign": "ID",
+        "name": "Investigation Discovery",
+        "tmdbId": 244
+    },
+    "IFC": {
+        "callSign": "IFC",
+        "name": "IFC",
+        "tmdbId": 124
+    },
+    "ION": {
+        "callSign": "ION",
+        "name": "ION",
+        "tmdbId": 293
+    },
+    "LIFE": {
+        "callSign": "LIFE",
+        "name": "Lifetime",
+        "tmdbId": 34
+    },
+    "MAX": {
+        "callSign": "MAX",
+        "name": "Cinemax",
+        "tmdbId": 359
+    },
+    "MSNBC": {
+        "callSign": "MSNBC",
+        "name": "MSNBC",
+        "tmdbId": 37
+    },
+    "MTV": {
+        "callSign": "MTV",
+        "name": "MTV",
+        "tmdbId": 33
+    },
+    "MTV2": {
+        "callSign": "MTV2",
+        "name": "MTV 2",
+        "tmdbId": 17
+    },
+    "NWSNTSD": {
+        "callSign": "NWSNTSD",
+        "name": "NewsNation",
+        "tmdbId": 6237
+    },
+    "NGC": {
+        "callSign": "NGC",
+        "name": "National Geographic",
+        "tmdbId": 43
+    },
+    "NICJR": {
+        "callSign": "NICJR",
+        "name": "Nick Jr.",
+        "tmdbId": 35
+    },
+    "NIK": {
+        "callSign": "NIK",
+        "name": "Nickelodeon",
+        "tmdbId": 13
+    },
+    "OUTD": {
+        "callSign": "OUTD",
+        "name": "Outdoor Channel",
+        "tmdbId": 752
+    },
+    "OWN": {
+        "callSign": "OWN",
+        "name": "OWN",
+        "tmdbId": 827
+    },
+    "OXYGEN": {
+        "callSign": "OXYGEN",
+        "name": "Oxygen",
+        "tmdbId": 132
+    },
+    "SCIENCE": {
+        "callSign": "SCIENCE",
+        "name": "Science Channel",
+        "tmdbId": 226
+    },
+    "SHOW": {
+        "callSign": "SHOW",
+        "name": "Showtime",
+        "tmdbId": 67
+    },
+    "PAR": {
+        "callSign": "PAR",
+        "name": "Paramount Network",
+        "tmdbId": 2076
+    },
+    "STARZ": {
+        "callSign": "STARZ",
+        "name": "Starz",
+        "tmdbId": 318
+    },
+    "STZENC": {
+        "callSign": "STZENC",
+        "name": "Starz Encore",
+        "tmdbId": 758
+    },
+    "SUNDANC": {
+        "callSign": "SUNDANC",
+        "name": "Sundance TV",
+        "tmdbId": 270
+    },
+    "SYFY": {
+        "callSign": "SYFY",
+        "name": "Syfy",
+        "tmdbId": 77
+    },
+    "TBN": {
+        "callSign": "TBN",
+        "name": "Trinity Broadcasting Network",
+        "tmdbId": 369
+    },
+    "TBS": {
+        "callSign": "TBS",
+        "name": "TBS",
+        "tmdbId": 68
+    },
+    "TLC": {
+        "callSign": "TLC",
+        "name": "TLC",
+        "tmdbId": 84
+    },
+    "TNT": {
+        "callSign": "TNT",
+        "name": "TNT",
+        "tmdbId": 41
+    },
+    "TOON": {
+        "callSign": "TOON",
+        "name": "Cartoon Network",
+        "tmdbId": 56
+    },
+    "TRAV": {
+        "callSign": "TRAV",
+        "name": "Travel Channel",
+        "tmdbId": 209
+    },
+    "TRUTV": {
+        "callSign": "TRUTV",
+        "name": "TruTV",
+        "tmdbId": 364
+    },
+    "TVLAND": {
+        "callSign": "TVLAND",
+        "name": "TV Land",
+        "tmdbId": 397
+    },
+    "USA": {
+        "callSign": "USA",
+        "name": "USA Network",
+        "tmdbId": 30
+    },
+    "VH1": {
+        "callSign": "VH1",
+        "name": "VH1",
+        "tmdbId": 158
+    },
+    "VICE": {
+        "callSign": "VICE",
+        "name": "Vice TV",
+        "tmdbId": 3706
+    },
+    "WE": {
+        "callSign": "WE",
+        "name": "We TV",
+        "tmdbId": 448
+    },
+    "WEATH": {
+        "callSign": "WEATH",
+        "name": "The Weather Channel",
+        "tmdbId": 306
+    }
+}

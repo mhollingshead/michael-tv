@@ -1,0 +1,22 @@
+.GuideHead {
+    padding: 8px 32px;
+    position: relative;
+
+    &__channel {
+        width: 248px;
+    }
+
+    &__slots {
+        width: calc(100% - 248px - 4px);
+        display: flex;
+        position: relative;
+    }
+
+    &__slot {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        padding: 4px 16px;
+        border-left: 1px solid var(--palette-divider);
+    }
+}

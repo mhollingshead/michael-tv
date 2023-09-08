@@ -1,0 +1,18 @@
+.Logo {
+    position: relative;
+    overflow: visible;
+
+    &__image {
+        position: absolute;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    &__glyph {
+        display: none;
+    }
+}
+
+[data-mui-color-scheme="light"] .Logo__image {
+    filter: invert(1) hue-rotate(180deg) brightness(1.25) saturate(0.75);
+}

@@ -1,0 +1,65 @@
+.FeaturedHero {
+    padding: 64px 64px;
+    position: relative;
+    text-align: left;
+
+    &__backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 46vw;
+        min-height: 800px;
+        background-size: cover;
+        background-position: center center;
+        z-index: 50;
+
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+        }
+    }
+
+    &__background-overlay {
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 50;
+            background: linear-gradient(
+                to top,
+                var(--palette-background-default),
+                transparent 100%
+            );
+        }
+    }
+
+    &__info {
+        position: relative;
+        z-index: 100;
+    }
+
+    &__overview {
+        max-width: 640px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+[data-mui-color-scheme='light'] .FeaturedHero__background-overlay {
+    &::after {
+        background: linear-gradient(to top, var(--palette-background-default), transparent 50%);
+    }
+}

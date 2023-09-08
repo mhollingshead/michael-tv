@@ -1,0 +1,21 @@
+.ActiveEventInfo {
+    padding: 32px;
+    position: relative;
+    z-index: 2;
+    
+    &__meta {
+        margin-top: 8px !important;
+    }
+
+    &__overview {
+        max-width: calc(100%);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    &__link {
+        width: max-content;
+        cursor: pointer;
+    }
+}

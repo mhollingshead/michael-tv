@@ -1,0 +1,11 @@
+.SearchResults {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    &__more-row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

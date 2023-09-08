@@ -1,0 +1,45 @@
+.GuideChannel {
+    width: 248px;
+    min-width: 248px;
+    height: 96px;
+    padding: 0 24px;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    background-color: var(--palette-background-default);
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &--active {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(
+            90deg,
+            color-mix(in srgb, var(--palette-primary-700), transparent 75%) 0%,
+            var(--palette-background-default) 25%
+        );
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            border-left: 4px solid var(--palette-primary-700);
+        }
+    }
+
+    &__channel-logo {
+        height: 40px;
+        filter: invert(1) saturate(0) brightness(2);
+    }
+}
+
+[data-mui-color-scheme="light"] .GuideChannel__channel-logo {
+    filter: saturate(0);
+}

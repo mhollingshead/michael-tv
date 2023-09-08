@@ -1,0 +1,17 @@
+.ExploreSections {
+    position: relative;
+    z-index: 100;
+
+    &__section {
+        margin: 32px 0;
+    }
+
+    &__subsection {
+        margin: 16px 0;
+    }
+
+    &__guttered-content {
+        margin-left: 32px !important;
+        margin-right: 32px !important;
+    }
+}

@@ -1,0 +1,10 @@
+.ContinueWatching {
+    position: relative;
+    margin: 32px 0;
+    z-index: 100;
+
+    &__guttered-content {
+        margin-left: 32px !important;
+        margin-right: 32px !important;
+    }
+}

@@ -1,0 +1,20 @@
+.SearchForm {
+    width: 400px;
+    min-width: 400px;
+    position: sticky;
+    top: 96px;
+
+    &__input-group {
+        width: 100%;
+
+        & > * {
+            width: 50%;
+        }
+    }
+}
+
+.Option {
+    &__logo {
+        height: 16px;
+    }
+}

@@ -1,0 +1,11 @@
+.GuideRow {
+    padding: 0 32px 4px 32px;
+    height: 100px;
+}
+
+.GuideEvents {
+    width: calc(100% - 248px - 4px);
+    max-width: calc(100% - 248px - 4px);
+    display: flex;
+    align-items: flex-start;
+}

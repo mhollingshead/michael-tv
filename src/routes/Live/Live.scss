@@ -1,0 +1,58 @@
+.Live {
+    background-color: var(--palette-background-paper);
+
+    &__sticky {
+        position: sticky;
+        top: 64px;
+        z-index: 10;
+    }
+
+    &__backdrop-container {
+        position: relative;
+    }
+
+    &__backdrop {
+        position: absolute;
+        width: 100vw;
+        height: 394px;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background-size: cover;
+        background-position: center center;
+        pointer-events: none;
+
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100vw;
+            height: 394px;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        &::before {
+            background: linear-gradient(
+                to right,
+                var(--palette-background-paper),
+                transparent 100%
+            );
+        }
+
+        &::after {
+            background: linear-gradient(to top, var(--palette-background-paper), transparent 100%);
+        }
+    }
+}
+
+[data-mui-color-scheme='light'] .Live__background {
+    &::before {
+        background: linear-gradient(to right, var(--palette-background-paper), transparent 100%);
+    }
+
+    &::after {
+        background: linear-gradient(to top, var(--palette-background-paper), transparent 50%);
+    }
+}

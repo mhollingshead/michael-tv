@@ -1,0 +1,66 @@
+.TitleHero {
+    position: relative;
+
+    &__backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 800px;
+        background-size: cover;
+        background-position: center center;
+        z-index: -10;
+
+        &::before, &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -9;
+        }
+
+        &::before {
+            background: linear-gradient(to right, var(--palette-background-default), transparent 100%);
+        }
+
+        &::after {
+            background: linear-gradient(to top, var(--palette-background-default), transparent 100%);
+        }
+    }
+
+    &__info {
+        max-width: 640px;
+        padding: 96px 64px;
+        position: relative;
+        z-index: 0;
+    }
+
+    &__overview {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+
+        &--expanded {
+            -webkit-line-clamp: 10;
+        }
+    }
+
+    &__cta {
+        padding-top: 32px;
+    }
+}
+
+[data-mui-color-scheme='light'] .TitleHero__backdrop {
+    &::before {
+        background: linear-gradient(to right, var(--palette-background-default), transparent 100%);
+    }
+
+    &::after {
+        background: linear-gradient(to top, var(--palette-background-default), transparent 50%);
+    }
+}

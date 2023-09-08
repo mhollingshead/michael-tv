@@ -1,0 +1,19 @@
+.ActiveChannelInfo {
+    padding: 16px 32px;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(8px);
+    background-color: color-mix(in srgb, var(--palette-background-default), transparent 35%);
+
+    &__channel-logo {
+        filter: invert(1) saturate(0) brightness(2);
+    }
+
+    &__buttons {
+        margin-left: auto !important;
+    }
+}
+
+[data-mui-color-scheme="light"] .ActiveChannelInfo__channel-logo {
+    filter: saturate(0);
+}

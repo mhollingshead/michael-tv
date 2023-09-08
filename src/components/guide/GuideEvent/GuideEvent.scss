@@ -1,0 +1,33 @@
+.GuideEvent {
+    height: 96px;
+    border-radius: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    background-color: var(--palette-background-default);
+
+    &--active {
+        background-color: color-mix(in srgb, var(--palette-primary-600), transparent 75%);
+        box-shadow: inset 0 0 0 2px var(--palette-primary-600);
+    }
+
+    &--live {
+        background-color: var(--palette-primaryDark-700);
+    }
+
+    &:last-child {
+        margin-right: 0 !important;
+    }
+
+    & > * {
+        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
+        margin: 0 16px !important;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+[data-mui-color-scheme="light"] .GuideEvent--live {
+    background-color: var(--palette-grey-200);
+}

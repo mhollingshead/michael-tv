@@ -1,0 +1,9 @@
+.Featured {
+    .carousel {
+        overflow: visible !important;
+
+        & > * {
+            overflow: visible !important;
+        }
+    }
+}

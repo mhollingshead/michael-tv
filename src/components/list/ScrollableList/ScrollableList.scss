@@ -1,0 +1,44 @@
+.ScrollableList {
+    position: relative;
+
+    &--fade-left::before,
+    &--fade-right::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        height: calc(100% - 16px);
+        width: 32px;
+        pointer-events: none;
+        z-index: 20;
+    }
+
+    &--fade-left::before {
+        background: linear-gradient(
+            to right,
+            var(--palette-background-default),
+            transparent 100%
+        );
+        left: 0;
+    }
+
+    &--fade-right::after {
+        background: linear-gradient(
+            to left,
+            var(--palette-background-default),
+            transparent 100%
+        );
+        right: 0;
+    }
+
+    &__wrapper {
+        overflow-x: scroll;
+        padding: 16px 32px;
+        max-width: calc(100%);
+    }
+
+    &__list {
+        display: flex;
+        min-width: max-content;
+        gap: 16px;
+    }
+}

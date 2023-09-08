@@ -1,0 +1,14 @@
+.TitleLiveBanner {
+    padding: 16px 32px;
+    backdrop-filter: blur(8px);
+    background-color: color-mix(in srgb, var(--palette-background-default), transparent 35%);
+
+    &__channel-logo {
+        height: 40px;
+        filter: invert(1) saturate(0) brightness(2);
+    }
+}
+
+[data-mui-color-scheme="light"] .TitleLiveBanner__channel-logo {
+    filter: saturate(0);
+}
