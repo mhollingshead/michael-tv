@@ -23,7 +23,7 @@ const RecommendedTitles = ({ id, type }) => {
                 >
                     Recommended
                 </Typography>
-                <ScrollableList fadeRight={false}>
+                <ScrollableList>
                     {results.map((result) => (
                         <TitleListing title={result} key={result.id} />
                     ))}

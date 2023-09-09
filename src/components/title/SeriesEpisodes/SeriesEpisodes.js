@@ -45,7 +45,7 @@ const SeriesEpisodes = ({ series }) => {
                     ))}
                 </Tabs>
             </Box>
-            <ScrollableList fadeRight={false} key={episodes[0]?.id || activeSeason}>
+            <ScrollableList key={episodes[0]?.id || activeSeason}>
                 {episodes.length
                     ? episodes.map((episode) => (
                           <EpisodeListing

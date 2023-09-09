@@ -24,7 +24,7 @@ const ContinueWatching = () => {
                 Continue Watching
             </Typography>
             <RenderIfVisible defaultHeight={281} visibleOffset={500}>
-                <ScrollableList fadeLeft={false} fadeRight={false}>
+                <ScrollableList>
                     {currentlyWatching.map((title, j) => (
                         <ContinueWatchingListing
                             title={title}
