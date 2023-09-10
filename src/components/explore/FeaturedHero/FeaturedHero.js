@@ -4,7 +4,7 @@ import { Box, Button, Stack, Typography, useColorScheme } from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import palette from 'image-palette';
 import pixels from 'image-pixels';
-import { getFeaturedHeroStyles } from '../../../common/utils/miscUtils';
+import { getHeroStyles } from '../../../common/utils/miscUtils';
 import genreMap from '../../../common/data/genres.json';
 import './FeaturedHero.scss';
 
@@ -15,18 +15,15 @@ const FeaturedHero = ({ heading, details }) => {
     useEffect(() => {
         if (details) {
             // Once we have access to the backdrop path, extract the color palette
-            pixels(`https://image.tmdb.org/t/p/w300${details.backdrop_path}`, 1)
-                .then(palette)
+            pixels(`https://image.tmdb.org/t/p/w300${details.backdrop_path}`)
+                .then((pixels) => palette(pixels, 3))
                 .then(({ colors }) => setColors(colors));
         }
     }, [details]);
 
     return (
         <Box className='FeaturedHero'>
-            <Box
-                className='FeaturedHero__backdrop'
-                sx={colors && getFeaturedHeroStyles(colors, mode, details)}
-            />
+            <Box className='FeaturedHero__backdrop' sx={getHeroStyles(colors, mode, details)} />
             <Stack className='FeaturedHero__info' spacing={4}>
                 <Typography
                     variant='body2'

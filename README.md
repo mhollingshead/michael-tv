@@ -26,7 +26,7 @@
 
 ### Explore
 
-<img src="./public/assets/explore.png" alt="Explore Page" />
+<img src="./public/assets/explore-modified.png" alt="Explore Page" />
 
 The explore page acts as the homepage of Michael TV and the landing page of the `/on-demand` route. It offers a rich set of features designed to enhance the content discovery experience:
 
@@ -46,7 +46,7 @@ Additionally, the explore page lists (which are built using the TMDB API) are on
 
 ### Live TV
 
-<img src="./public/assets/live-tv.png" alt="Live TV" />
+<img src="./public/assets/live-tv-modified.png" alt="Live TV" />
 
 The live TV page `/live` is home to Michael TV's live television. It offers a range of features designed to provide users with a seamless and interactive live TV experience:
 
@@ -64,7 +64,7 @@ Additionally, polling to check for outdated programming data at the application 
 
 ### Titles
 
-<img src="./public/assets/title.png" alt="Title Page" />
+<img src="./public/assets/title-modified.png" alt="Title Page" />
 
 Title pages `/on-demand/:type/:id` serve as landing pages for series and movies. Here, users can access comprehensive details about the title, explore related content, browse seasons and episodes (if applicable), and initiate playback. These pages offer a range of features that enhance the user's viewing experience:
 
@@ -81,7 +81,7 @@ All episode stills are lazy loaded, preventing unnecessary bulk image data trans
 
 ### Search
 
-<img src="./public/assets/search.png" alt="Search" />
+<img src="./public/assets/search-modified.png" alt="Search" />
 
 The search page `/search` allows users to search tv series, movies, or all titles using one of two methods:
 

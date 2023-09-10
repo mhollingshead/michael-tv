@@ -81,6 +81,7 @@ const ActiveEventInfo = ({ setBackdrop }) => {
                         <Link
                             variant='body2'
                             component={DomLink}
+                            underline='hover'
                             to={`/on-demand/${activeEvent.type === 'movie' ? 'movie' : 'series'}/${
                                 tmdbDetails.id
                             }`}

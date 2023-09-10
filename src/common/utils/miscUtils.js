@@ -71,13 +71,13 @@ export const getEventStyles = (event, isLast) => {
     };
 };
 
-export const getFeaturedHeroStyles = (colors, mode, details) => {
+export const getHeroStyles = (colors, mode, details) => {
     return {
         backgroundImage: `url("https://image.tmdb.org/t/p/w1280${details.backdrop_path}")`,
         '::before': {
             background: `linear-gradient(
                 to right, 
-                ${getColorByBrightness(colors, mode)}, 
+                ${colors ? getColorByBrightness(colors, mode) : 'transparent'}, 
                 transparent 100%
             )`
         },
@@ -88,8 +88,8 @@ export const getFeaturedHeroStyles = (colors, mode, details) => {
                 transparent ${mode === 'dark' ? '100' : '75'}%
             ), linear-gradient(
                 to top, 
-                ${getColorByBrightness(colors, mode)} 16%, 
-                transparent 100%
+                ${colors ? getColorByBrightness(colors, mode) : 'transparent'} 10%, 
+                transparent 50%
             )`
         }
     };

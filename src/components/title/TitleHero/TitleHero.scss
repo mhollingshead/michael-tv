@@ -20,14 +20,6 @@
             height: 100%;
             z-index: -9;
         }
-
-        &::before {
-            background: linear-gradient(to right, var(--palette-background-default), transparent 100%);
-        }
-
-        &::after {
-            background: linear-gradient(to top, var(--palette-background-default), transparent 100%);
-        }
     }
 
     &__info {
@@ -52,15 +44,5 @@
 
     &__cta {
         padding-top: 32px;
-    }
-}
-
-[data-mui-color-scheme='light'] .TitleHero__backdrop {
-    &::before {
-        background: linear-gradient(to right, var(--palette-background-default), transparent 100%);
-    }
-
-    &::after {
-        background: linear-gradient(to top, var(--palette-background-default), transparent 50%);
     }
 }

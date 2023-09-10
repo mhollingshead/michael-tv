@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { Link as DomLink } from 'react-router-dom';
 import { Box, Link, Stack, Typography } from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { updateActiveEvent } from '../../../features/live/liveSlice';
@@ -38,7 +39,7 @@ const GuideChannel = ({ channel }) => {
                     {channel.callSign}
                 </Typography>
                 <Box lineHeight={1}>
-                    <Link variant='body2'>
+                    <Link variant='body2' component={DomLink} underline='hover' to={`/watch/live/${channel.tmdbId}`}>
                         Watch Live
                         <ChevronRightIcon fontSize='small' />
                     </Link>

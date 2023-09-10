@@ -22,12 +22,7 @@ const Featured = () => {
                     autoPlay
                 >
                     {featured.map(({ heading, details }, i) => (
-                        <FeaturedHero
-                            heading={heading}
-                            details={details}
-                            isFirst={i === featured.length - 1}
-                            key={`slide-${i}`}
-                        />
+                        <FeaturedHero heading={heading} details={details} key={`slide-${i}`} />
                     ))}
                 </Carousel>
             )}
